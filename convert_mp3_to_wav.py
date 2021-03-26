@@ -1,7 +1,7 @@
 """
 dependency
 pip install pydub
-apt-get install ffmeg
+apt-get install ffmpeg
 
 """
 
