@@ -1,4 +1,4 @@
-from pydum import AudioSegment
+from pydub import AudioSegment
 
 def segment_audio(wav_filename, start_second, end_second, out_filename, out_format):
     """
