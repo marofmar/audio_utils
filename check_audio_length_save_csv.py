@@ -14,3 +14,5 @@ for i in df["wav"]:
     dur.append(l)
     
 df["length_s"] = dur
+
+df[df.length_s < 30]  # 30초 안되는 친구들만 모아보기
